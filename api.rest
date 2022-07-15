@@ -1,0 +1,45 @@
+//Archivo que contiene todas nuestras peticiones de prueba usadas durante el desarrollo del backend
+###
+POST http://localhost:5000/signup
+Content-Type: application/json
+
+{
+    "name1": "Raúl",
+    "name2": "x",
+    "appe1": " Herrera",
+    "appe2": "Macías",
+	"email": "facelessdivine@gmail",
+	"password": "1234admin",
+	"telefono": "6145994188",
+	"fecha_naci": "2000/09/15"
+}
+
+
+###
+POST http://localhost:5000/signin
+Content-Type: application/json
+
+{   
+    "email": "gabo03@gmail",
+	"password": "1935jaime"
+}
+    
+###
+POST http://localhost:5000/update
+Content-Type: application/json
+
+{
+    "name1": "Ramiro",
+    "name2": "Juan",
+    "appe1": "Guerra",
+    "appe2": "Lopez",
+	"email": "ssss",
+	"password": "123456",
+	"telefono": "3145002020",
+	"fecha_naci": 2000512,
+    "empresa": "No existe",
+    "vocacion": "asdfs",
+    "tipo_publico": "asdfs",
+    "descripcion":"asdfs"
+
+}
